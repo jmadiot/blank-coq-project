@@ -6,16 +6,11 @@
 (package
    (name foo.lib)
    (depends
-     ("coq" (>= 8.11.0))
-	 ("dune" (>= 2.2))
-     ("coq-relation-algebra" (>= 1.7)))
+     ("coq" (>= 8.11.0)))
    (synopsis "A foo library"))
 
 (package
    (name foo.app)
    (depends
-     ("foo.lib" (>= 0))  ; comme ça ?
-     ("coq" (>= 8.11.0))
-	 ("dune" (>= 2.2))
-	 ("coq-relation-algebra" (>= 1.7)))
+     ("coq" (>= 8.11.0)))
    (synopsis "A foo app"))
