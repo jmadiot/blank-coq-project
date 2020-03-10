@@ -1,0 +1,4 @@
+(coq.theory
+   (name foo.app)
+   (package foo.app)
+   (modules coolapp))

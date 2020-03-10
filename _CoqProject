@@ -1,0 +1,5 @@
+-Q . foo
+
+lib/a.v
+lib/b.v
+app/coolapp.v

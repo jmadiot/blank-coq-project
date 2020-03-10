@@ -1,0 +1,4 @@
+(coq.theory
+   (name foo.lib)
+   (package foo.lib)
+   (modules a b))
